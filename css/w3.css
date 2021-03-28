@@ -1149,6 +1149,8 @@ a{
  .w3-white,.w3-hover-white:hover{
     color:#000!important;
     background-color:#fff!important;
+    max-width: 300px;
+    max-height: 350px;
     
     
 }
