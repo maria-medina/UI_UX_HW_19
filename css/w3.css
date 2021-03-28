@@ -83,7 +83,7 @@ hr{
     overflow:visible
 }
  button,input,select,textarea{
-    font:inherit;
+    font-family: 'Niramit', 'Roboto';
     margin:0
 }
 optgroup{
@@ -93,7 +93,7 @@ optgroup{
     overflow:visible
 }
 button,select{
-    text-transform:none
+    text-transform:none;
 }
  button,html [type=button],[type=reset],[type=submit]{
     -webkit-appearance:button
@@ -189,7 +189,8 @@ h6{
     height:auto
 }
 img{
-    vertical-align:middle
+    vertical-align: text-bottom;
+    
 }
 a{
     color:inherit
@@ -900,7 +901,7 @@ a{
 }
  .w3-opacity,.w3-hover-opacity:hover{
     opacity:0.60;
-    
+   
    
 }
 .w3-opacity-off,.w3-hover-opacity-off:hover{
@@ -1147,7 +1148,9 @@ a{
 }
  .w3-white,.w3-hover-white:hover{
     color:#000!important;
-    background-color:#fff!important
+    background-color:#fff!important;
+    
+    
 }
  .w3-black,.w3-hover-black:hover{
     color:#fff!important;
