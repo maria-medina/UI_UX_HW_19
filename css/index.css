@@ -10,7 +10,11 @@
   display: none;
   min-height: 428px;
 }
-
+.w3-third .w3-margin-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .mySlides {
   padding-top: 1%;
 }

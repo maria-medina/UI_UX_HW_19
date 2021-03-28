@@ -899,7 +899,9 @@ a{
     width:100%!important
 }
  .w3-opacity,.w3-hover-opacity:hover{
-    opacity:0.60
+    opacity:0.60;
+    
+   
 }
 .w3-opacity-off,.w3-hover-opacity-off:hover{
     opacity:1
@@ -1149,7 +1151,7 @@ a{
 }
  .w3-black,.w3-hover-black:hover{
     color:#fff!important;
-    background-color:#000!important
+    background-color:#A504E5!important
 }
  .w3-grey,.w3-hover-grey:hover,.w3-gray,.w3-hover-gray:hover{
     color:#000!important;
