@@ -15,7 +15,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 12px;
 }
+
+/*About*/
 .mySlides {
   padding-top: 1%;
   border-bottom: solid #A504E5;
@@ -42,12 +45,22 @@ h4{
 }
 
 p {
-    font-family: 'Niramit', 'Roboto';
+  font-family: 'Niramit', 'Roboto';
   display: flex;
   justify-content: space-evenly;
   text-align: left;
   margin: 5%;
+  margin-left: 20%;
+  color: #393570;
+}
+/*subheading*/
+p b {
+ color:blue;
+}
 
+.w3-container{
+  width: 100%;
+  bottom: 0;
 }
 
 .x_button {
@@ -57,4 +70,4 @@ p {
   z-index:2;
 
 }
-/*Cards */
+
