@@ -17,6 +17,11 @@
   align-items: center;
   border-radius: 12px;
 }
+/*Send Button*/
+.w3-button {
+  border-radius: 12px;
+  width: 100px;
+}
 
 /*About*/
 .mySlides {
@@ -39,6 +44,7 @@ h2{
 h3 {
   font-family: 'Niramit', 'Roboto';
 }
+
 h4{
   text-align: left;
   font-family: 'Niramit', 'Roboto';
