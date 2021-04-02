@@ -10,6 +10,7 @@
   display: none;
   min-height: 428px;
 }
+/*Buttons*/
 .w3-third .w3-margin-bottom{
   display: flex;
   justify-content: center;
@@ -17,6 +18,7 @@
 }
 .mySlides {
   padding-top: 1%;
+  border-bottom: solid #A504E5;
 }
 .containerHeight {
   min-height: 428px;
@@ -53,5 +55,6 @@ p {
 }
 .w3-top {
   z-index:2;
-}
 
+}
+/*Cards */

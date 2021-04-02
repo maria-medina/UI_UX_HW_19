@@ -154,7 +154,8 @@ html{
     font-size:36px
 }
 h2{
-    font-size:30px
+    font-size:30px;
+    color: #A504E5;
 }
 h3{
     font-size:24px
@@ -559,8 +560,9 @@ a{
     }
 }
  .w3-content{
-    max-width:980px;
-    margin:auto
+    max-width: 100%;;
+    margin:auto;
+    border-bottom: solid #A504E5 1px;
 }
 .w3-rest{
     overflow:hidden
@@ -725,7 +727,7 @@ a{
     left:50%;
     bottom:0;
     transform:translate(-50%,0%);
-    -ms-transform:translate(-50%,0%)
+    -ms-transform:translate(-50%,0%);
 }
  .w3-display-container:hover .w3-display-hover{
     display:block
@@ -1156,8 +1158,8 @@ a{
     
 }
  .w3-black,.w3-hover-black:hover{
-    color:#fff!important;
-    background-color:#A504E5!important
+    color:# white!important;
+    background-color: #A504E5!important;
 }
  .w3-grey,.w3-hover-grey:hover,.w3-gray,.w3-hover-gray:hover{
     color:#000!important;
