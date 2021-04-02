@@ -1010,8 +1010,13 @@ a{
 .w3-margin-top{
     margin-top:16px!important
 }
+/*Skills cards section*/
 .w3-margin-bottom{
-    margin-bottom:16px!important
+    margin-bottom:16px!important;
+    border: solid red;
+}
+.w3-margin-bottom img {
+    border: solid red;
 }
  .w3-margin-left{
     margin-left:16px!important
