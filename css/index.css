@@ -22,6 +22,10 @@
   border-radius: 12px;
   width: 100px;
 }
+.w3-button:hover{
+    color:#A504E5!important;
+    background-color:#FEE29F!important
+}
 
 /*About*/
 .mySlides {
