@@ -932,9 +932,7 @@ a{
     width:100%!important
 }
  .w3-opacity,.w3-hover-opacity:hover{
-    opacity:0.60;
-   
-   
+    opacity:0.60;  
 }
 .w3-opacity-off,.w3-hover-opacity-off:hover{
     opacity:1

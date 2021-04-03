@@ -40,6 +40,8 @@
 } 
 h2{
   font-family: 'Niramit', 'Roboto';
+  background-color:#FEE29F;
+  font-size: 75px;
 }
 h3 {
   font-family: 'Niramit', 'Roboto';
@@ -59,7 +61,7 @@ p {
   margin-left: 20%;
   color: #393570;
 }
-/*subheading*/
+/*heading for cards*/
 p b {
  color:blue;
 }
