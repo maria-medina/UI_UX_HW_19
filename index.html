@@ -71,7 +71,7 @@ body {font-family: "Niramit, robot"; text-align: center;}
             <p><b>USER EMPATHY</b></p>
             <p>With the use of pen, paper, Ibis Paint X, and Figma to visually display user's emotion through the preferred method -
             storyboarding. Relating to the user's experiences guides the heart of the design process.</p>
-            <button class="w3-button w3-black w3-margin-bottom"
+            <button class="button-pos w3-button w3-black w3-margin-bottom"
               onclick="document.getElementById('ticketModal').style.display='block'">Learn More</button>
           </div>
         </div>
@@ -81,7 +81,7 @@ body {font-family: "Niramit, robot"; text-align: center;}
             <p><b class="title">BRAINSTORMING</b></p>
             <p>With Figma, Miro, pen and paper as my tools, organization provides a solid structure. Some favored methods include card
             sorting, redlining, data analysis, annotation, generating ideas, and sketching. All propel the design process.</p>
-            <button class="w3-button w3-black w3-margin-bottom"
+            <button class="button-pos w3-button w3-black w3-margin-bottom"
               onclick="document.getElementById('ticketModal').style.display='block'">Learn More</button>
           </div>
         </div>
@@ -128,49 +128,16 @@ body {font-family: "Niramit, robot"; text-align: center;}
     </div>
   </div>
 
-  <!-- Learn More Modal -->
-  <div id="ticketModal" class="w3-modal">
-    <div class="w3-modal-content w3-animate-top w3-card-4">
-      <header class="w3-container w3-teal w3-center w3-padding-32">
-        <span onclick="document.getElementById('ticketModal').style.display='none'"
-       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
-        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>THE WORKS</h2>
-      </header>
-      <div class="w3-container">
-        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="How many?">
-        <p><label><i class="fa fa-user"></i> Send To</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="Enter email">
-        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
-        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
-      </div>
-    </div>
-  </div>
-
   <!-- The Contact Section -->
   <div class="w3-container w3-content w3-padding-64" style="max-width:100%" id="contact">
     <h2 class="w3-wide w3-center">CONTACT</h2>
-    <p class="w3-opacity w3-center"><i>Interested? Contact for Resume</i></p>
+    <p class="w3-opacity w3-center" id="interested"><i>Interested? Take a gander at my resume</i></p>
     <div class="w3-row w3-padding-32">
       <div class="w3-col m6 w3-large w3-margin-bottom">
         <i class="fa fa-map-marker" style="width:30px"></i> Texas, US<br>
         <i class="fa fa-phone" style="width:30px"></i> Email: mariaemedina333@gmail.com<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> LinkedIn: linkedin.com/in/maria-malu-medina/<br>
-      </div>
-      <div class="w3-col m6">
-        <form action="/action_page.php" target="_blank">
-          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-            </div>
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-            </div>
-          </div>
-          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
-        </form>
+        <i class="fa fa-envelope" style="width:30px"> </i> LinkedIn: linkedin.com/in/maria-malu-medina/<br> 
+        <button id="resume" class="w3-button w3-black w3-section w3-right" type="submit">Resume</button>
       </div>
     </div>
   </div>

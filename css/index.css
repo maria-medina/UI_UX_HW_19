@@ -17,7 +17,7 @@
   align-items: center;
   border-radius: 12px;
 }
-/*Send Button*/
+/*Resume Button*/
 .w3-button {
   border-radius: 12px;
   width: 100px;
@@ -26,10 +26,21 @@
     color:#A504E5!important;
     background-color:#FEE29F!important
 }
+
+#resume {
+font-size: 16px;
+}
 .navTab {
   border-radius: 0pc;
 }
 
+.button-pos {
+ display: flex;
+  justify-content: space-evenly;
+  text-align:left;
+  margin: 6%;
+  margin-top: 12%; 
+}
 
 /*About*/
 .mySlides {
@@ -56,7 +67,7 @@
 .w3-bar-item{
   font-family: 'Niramit', 'Roboto'; 
 }
-
+/*paragraph text in about section*/
 .text {
 color: #393570;
  display: flex;
@@ -64,6 +75,7 @@ color: #393570;
  font-size: 22px;
  margin-top: 1%;
  margin-right: 13%;
+ margin-left: 20%;
 }
 
 /*Headers*/
@@ -71,7 +83,6 @@ h1{
 color: #A504E5;
 font-size: 60px;
 margin-top: 1px;
-
 }
 
 h2{
@@ -87,6 +98,7 @@ h4{
   text-align: left;
   font-family: 'Niramit', 'Roboto';
 }
+/*subheader in about section*/
 h5 {
   color: #A504E5;
   display: flex;
@@ -108,10 +120,9 @@ p {
   justify-content: space-evenly;
   text-align:left;
   margin: 5%;
-  margin-left: 20%;
   color: #393570;
 }
-/*heading for cards*/
+
 p b {
  color:#A504E5;
 }
@@ -124,7 +135,11 @@ p b {
     text-align:center;
      border: solid red;
 }
-
+/*interested in contact section*/
+#interested {
+color: #A504E5;
+font-size: 32px;
+}
 
 .x_button {
 
@@ -134,3 +149,9 @@ p b {
 
 }
 
+/*Footer*/
+/*small footer text*/
+.w3-medium{
+    font-size:15px!important;
+    color: white;
+}
