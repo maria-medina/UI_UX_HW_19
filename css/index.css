@@ -30,15 +30,20 @@
   border-radius: 0pc;
 }
 
-.button-pos {
-
-}
 
 /*About*/
 .mySlides {
   padding-top: 1%;
   border-bottom: solid #A504E5;
 }
+#profile {
+  border-radius: 50%;
+}
+
+.profile {
+  text-align: left;
+}
+
 .containerHeight {
   min-height: 428px;
   background-color: black;
@@ -48,6 +53,11 @@
 }
 .w3-bar-item{
   font-family: 'Niramit', 'Roboto'; 
+}
+
+.text {
+color: pink;
+
 }
 
 /*Headers*/
@@ -83,7 +93,7 @@ p {
   font-family: 'Niramit', 'Roboto';
   display: flex;
   justify-content: space-evenly;
-  text-align: left;
+  text-align:left;
   margin: 5%;
   margin-left: 20%;
   color: #393570;
@@ -97,7 +107,10 @@ p b {
   width: 100%;
   bottom: 0;
 }
-
+.w3-center{
+    text-align:center;
+     border: solid red;
+}
 
 
 .x_button {
