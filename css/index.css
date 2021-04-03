@@ -30,6 +30,10 @@
   border-radius: 0pc;
 }
 
+.button-pos {
+
+}
+
 /*About*/
 .mySlides {
   padding-top: 1%;
@@ -44,7 +48,9 @@
 }
 .w3-bar-item{
   font-family: 'Niramit', 'Roboto'; 
-} 
+}
+
+/*Headers*/
 h1{
 color: #A504E5;
 font-size: 80px;
@@ -84,13 +90,15 @@ p {
 }
 /*heading for cards*/
 p b {
- color:blue;
+ color:#A504E5;
 }
 
 .w3-container{
   width: 100%;
   bottom: 0;
 }
+
+
 
 .x_button {
 
