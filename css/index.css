@@ -38,10 +38,12 @@
 }
 #profile {
   border-radius: 50%;
+  height: 400px;
+  width: fit-content;
 }
 
 .profile {
-  text-align: left;
+  text-align: center;
 }
 
 .containerHeight {
@@ -56,14 +58,20 @@
 }
 
 .text {
-color: pink;
-
+color: #393570;
+ display: flex;
+ justify-content: flex-start;
+ font-size: 22px;
+ margin-top: 1%;
+ margin-right: 13%;
 }
 
 /*Headers*/
 h1{
 color: #A504E5;
-font-size: 80px;
+font-size: 60px;
+margin-top: 1px;
+
 }
 
 h2{
@@ -81,12 +89,17 @@ h4{
 }
 h5 {
   color: #A504E5;
-  font-size: 60px;
-  vertical-align: bottom;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 32px;
+  margin-top: 1%;
+  margin-right: 13%;
+  margin-left: 20%;
 }
 .containerTitle {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
+  margin-left: 18%;
 }
 
 p {
