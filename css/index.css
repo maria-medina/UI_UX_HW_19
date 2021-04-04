@@ -26,10 +26,13 @@
     color:#A504E5!important;
     background-color:#FEE29F!important
 }
-
 #resume {
 font-size: 16px;
 }
+.w3-right{
+    float:middle!important
+}
+
 .navTab {
   border-radius: 0pc;
 }
@@ -146,6 +149,20 @@ font-size: 32px;
 }
 .w3-top {
   z-index:2;
+
+}
+/*Contact*/
+/*contact icons*/
+.fa {
+text-align: start;
+color: #A504E5; 
+}
+.content{
+  color: #393570;
+  font-family: 'Niramit', 'Roboto';
+  font-size: 25px;
+  text-align: start;
+  margin-left: 25%;
 
 }
 

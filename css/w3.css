@@ -25,11 +25,11 @@ body{
     padding: 22px;
     font-size: medium;
 }
-
+/*contact section*/
  .w3-content{
     max-width: 100%;;
     margin:auto;
-    border-bottom: solid #A504E5 1px;
+    border-bottom: solid blue 1px;
 }
 /* images */
 .w3-margin-bottom img {
@@ -1072,9 +1072,7 @@ a{
  .w3-left{
     float:left!important
 }
-.w3-right{
-    float:right!important
-}
+
 
  .w3-transparent,.w3-hover-none:hover{
     background-color:transparent!important
