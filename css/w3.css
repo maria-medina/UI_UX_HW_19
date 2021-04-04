@@ -1072,7 +1072,9 @@ a{
  .w3-left{
     float:left!important
 }
-
+.w3-right{
+    float:middle!important
+}
 
  .w3-transparent,.w3-hover-none:hover{
     background-color:transparent!important
